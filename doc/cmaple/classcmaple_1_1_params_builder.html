@@ -129,6 +129,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1d5f4bb041e38743f4bb98f134905800"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcmaple_1_1_params_builder.html">ParamsBuilder</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcmaple_1_1_params_builder.html#a1d5f4bb041e38743f4bb98f134905800">withOutAlterSPR</a> (const bool &amp;out_alter_spr)</td></tr>
 <tr class="memdesc:a1d5f4bb041e38743f4bb98f134905800"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the flag to output alternative SPRs and their <a href="https://www.nature.com/articles/s41586-025-09567-x">SPRTA</a> supports. Defaut: FALSE.  <br /></td></tr>
 <tr class="separator:a1d5f4bb041e38743f4bb98f134905800"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2699d36bc31fb95ad295ddf45251be18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcmaple_1_1_params_builder.html">ParamsBuilder</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcmaple_1_1_params_builder.html#a2699d36bc31fb95ad295ddf45251be18">withLocalRef</a> (const bool &amp;use_local_ref)</td></tr>
+<tr class="memdesc:a2699d36bc31fb95ad295ddf45251be18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the flag to use multiple local references along the tree rather than a single global reference at root. Defaut: TRUE.  <br /></td></tr>
+<tr class="separator:a2699d36bc31fb95ad295ddf45251be18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77ad01885d330623ea8475452549538e"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; cmaple::Params &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcmaple_1_1_params_builder.html#a77ad01885d330623ea8475452549538e">build</a> ()</td></tr>
 <tr class="memdesc:a77ad01885d330623ea8475452549538e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build the Params object after initializing parameters.  <br /></td></tr>
 <tr class="separator:a77ad01885d330623ea8475452549538e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -512,6 +515,33 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">out_alter_spr</td><td>TRUE to output alternative SPRs and their SPRTA supports </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the <a class="el" href="classcmaple_1_1_params_builder.html">ParamsBuilder</a> instance </dd></dl>
+
+</div>
+</div>
+<a id="a2699d36bc31fb95ad295ddf45251be18" name="a2699d36bc31fb95ad295ddf45251be18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2699d36bc31fb95ad295ddf45251be18">&#9670;&#160;</a></span>withLocalRef()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcmaple_1_1_params_builder.html">ParamsBuilder</a> &amp; cmaple::ParamsBuilder::withLocalRef </td>
+          <td>(</td>
+          <td class="paramtype">const bool &amp;&#160;</td>
+          <td class="paramname"><em>use_local_ref</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the flag to use multiple local references along the tree rather than a single global reference at root. Defaut: TRUE. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">use_local_ref</td><td>TRUE to use local references </td></tr>
   </table>
   </dd>
 </dl>
